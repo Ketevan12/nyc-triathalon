@@ -1,4 +1,4 @@
-# NYC Data - Project Starter
+# NYC Triathalon
 
 ### Resources
 - [NYC Open Data](https://opendata.cityofnewyork.us/)
