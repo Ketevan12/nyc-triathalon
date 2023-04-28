@@ -27,7 +27,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 }
 
 // Fetch the data when the page loads
-fetch('/data/DPR_RunningTracks_001.json')
+fetch('data/DPR_RunningTracks_001.json')
   .then((response) => response.json())
   .then((json) => {
       runningTracks = json.filter(function(track) {
@@ -37,7 +37,7 @@ fetch('/data/DPR_RunningTracks_001.json')
       console.log('running tracks', runningTracks)
   });
 
-fetch('/data/DPR_Pools_outdoor_001.json')
+fetch('data/DPR_Pools_outdoor_001.json')
   .then((response) => response.json())
   .then((json) => {
     // Set the data to our app variable
